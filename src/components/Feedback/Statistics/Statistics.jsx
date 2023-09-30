@@ -1,21 +1,21 @@
 import React from 'react';
 import StatisticWrapper from './Statistics.styled';
 
-const Statistics = ({ goodValue, neutralValue, badValue, total, positive }) => {
+const Statistics = ({ good, neutral, bad, total, positive }) => {
   return (
     <StatisticWrapper>
       <h2>Statistics</h2>
       <div>
         <p>Good:</p>
-        <span>{goodValue}</span>
+        <span>{good}</span>
       </div>
       <div>
         <p>Neutral:</p>
-        <span>{neutralValue}</span>
+        <span>{neutral}</span>
       </div>
       <div>
         <p>Bad:</p>
-        <span>{badValue}</span>
+        <span>{bad}</span>
       </div>
 
       <div>
